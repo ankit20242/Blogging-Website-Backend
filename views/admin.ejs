@@ -36,7 +36,7 @@
         <div class="stats-container">
             <div class="stat-box">
                 <div>
-                <h1><%=visits[0].visits%></h1>
+                <h1><%= visits && visits[0] ? visits[0].visits : 0 %></h1>
                 <h2>Total Visits</h2>
                 </div>
                 <p><i class="fa-solid fa-eye"></i></p>

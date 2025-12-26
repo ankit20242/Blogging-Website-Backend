@@ -4,7 +4,7 @@ async function main() {
   //   useNewUrlParser: true,
   // });
   await mongoose.connect(
-    "mongodb+srv://arjuncvinod:gdozFKJP7i12I87s@cluster0.yjxy0xp.mongodb.net/todoListDB",
+    "mongodb+srv://ankit:ankit123@cluster0.ebixn6w.mongodb.net/?appName=Cluster0",
     { useNewUrlParser: true }
     
   );
